@@ -1,0 +1,28 @@
+{
+  "name": "hca-codetest",
+  "version": "1.0.0",
+  "description": "A front end code test for the HCA Experience and Innovation team.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julessep/hca-codetest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julessep/hca-codetest/issues"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "hbsfy": "^2.7.0",
+    "matchdep": "^2.0.0"
+  }
+}
