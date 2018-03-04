@@ -23,10 +23,21 @@ $Evening: #1E71CD;
   border-top: 3.5px solid $Night;
   border-bottom: 1px solid $Geyser;
 }
+.beechwood-logo {
+  width: 175px;
+}
 a.nav-item.nav-link {
   color: $Night;
 }
-
 img.nav-icon {
-  height: 35px;
+  height: 30px;
+  margin-left: 15px;
+}
+.nav-icon-group {
+  margin-left: 30%;
+}
+.menu-icon {
+  display: block;
+  text-align: center;
+  width: 40px;
 }
