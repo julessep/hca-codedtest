@@ -9,6 +9,9 @@ $Steam: #F5F7F9;
 $Night: #063D7A;
 $Evening: #1E71CD;
 
+body {
+  padding-top: 75px; 
+}
 /* Navbar */
 .navbar {
   width: 100%;
@@ -34,10 +37,27 @@ img.nav-icon {
   margin-left: 15px;
 }
 .nav-icon-group {
-  margin-left: 30%;
+  margin-left: 39%;
 }
 .menu-icon {
   display: block;
   text-align: center;
   width: 40px;
+}
+
+/* Body */
+.padding-top {
+  padding-top: 3%;
+}
+.home-icon {
+  height: 25px;
+}
+.short-line {
+  border-top: 2px solid $Night;
+  width: 18%;
+}
+
+ol.breadcrumb {
+  background-color: #fff;
+  padding-left: 0;
 }
