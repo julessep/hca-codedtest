@@ -4,8 +4,15 @@ body {
   padding-top: 75px;
   color: #465561; }
 
+.container-fluid {
+  padding: 0; }
+
 .heading {
   color: #1F2532; }
+
+.content-padding {
+  margin-left: 9%;
+  margin-right: 9%; }
 
 /* Navbar */
 .navbar {

@@ -13,9 +13,16 @@ body {
   padding-top: 75px; 
   color: $Cadet;
 }
-
+.container-fluid {
+  padding: 0;
+}
 .heading {
   color: $Asphalt;
+}
+.content-padding {
+  margin-left: 9%;
+  margin-right: 9%;
+
 }
 /* Navbar */
 .navbar {
@@ -84,6 +91,3 @@ ol.breadcrumb {
   padding: 0;
 }
 
-.content-center {
-
-}
