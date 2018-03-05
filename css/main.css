@@ -50,4 +50,13 @@ ol.breadcrumb {
   background-color: #fff;
   padding-left: 0; }
 
+.card-spacing {
+  padding: 3%;
+  margin: 3%; }
+
+.card-img-bottom {
+  color: #fff;
+  background: url(images/img1.jpg) center no-repeat;
+  background-size: cover; }
+
 /*# sourceMappingURL=main.css.map */
