@@ -1,3 +1,35 @@
+/* Greys */
+/* Blues */
+/* Navbar */
+.navbar {
+  width: 100%;
+  height: 58px;
+  line-height: 58px;
+  padding: 35px 25px;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 10px 16px 0 rgba(245, 247, 249, 0.15);
+  z-index: 4;
+  border-top: 3.5px solid #063D7A;
+  border-bottom: 1px solid #D8DDE6; }
 
+.beechwood-logo {
+  width: 175px; }
+
+a.nav-item.nav-link {
+  color: #063D7A; }
+
+img.nav-icon {
+  height: 30px;
+  margin-left: 15px; }
+
+.nav-icon-group {
+  margin-left: 30%; }
+
+.menu-icon {
+  display: block;
+  text-align: center;
+  width: 40px; }
 
 /*# sourceMappingURL=main.css.map */
