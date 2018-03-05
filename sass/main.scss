@@ -11,6 +11,11 @@ $Evening: #1E71CD;
 
 body {
   padding-top: 75px; 
+  color: $Cadet;
+}
+
+.heading {
+  color: $Asphalt;
 }
 /* Navbar */
 .navbar {
@@ -64,11 +69,21 @@ ol.breadcrumb {
 }
 
 .card-spacing {
-  padding: 3%;
   margin: 3%;
 }
-.card-img-bottom {
-  background: url('../images/placeholder.png') center no-repeat;
-  // background-size: cover;
-  width: 200px;
+.card-img {
+  padding-top: 15px;
+}
+.card-subtitle {
+  color: $Cadet;
+}
+
+.steam {
+  background-color: $Steam;
+  width: 100%;
+  padding: 0;
+}
+
+.content-center {
+
 }

@@ -1,7 +1,11 @@
 /* Greys */
 /* Blues */
 body {
-  padding-top: 75px; }
+  padding-top: 75px;
+  color: #465561; }
+
+.heading {
+  color: #1F2532; }
 
 /* Navbar */
 .navbar {
@@ -51,11 +55,17 @@ ol.breadcrumb {
   padding-left: 0; }
 
 .card-spacing {
-  padding: 3%;
   margin: 3%; }
 
-.card-img-bottom {
-  background: url("../images/placeholder.png") center no-repeat;
-  width: 200px; }
+.card-img {
+  padding-top: 15px; }
+
+.card-subtitle {
+  color: #465561; }
+
+.steam {
+  background-color: #F5F7F9;
+  width: 100%;
+  padding: 0; }
 
 /*# sourceMappingURL=main.css.map */
