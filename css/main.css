@@ -1,5 +1,9 @@
 /* Greys */
 /* Blues */
+* {
+  box-sizing: border-box;
+  overflow-x: hidden; }
+
 body {
   padding-top: 75px;
   color: #465561; }
@@ -61,18 +65,43 @@ ol.breadcrumb {
   background-color: #fff;
   padding-left: 0; }
 
+.info-card {
+  padding: 20px;
+  margin: 15px 0; }
+
 .card-spacing {
   margin: 3%; }
 
 .card-img {
-  padding-top: 15px; }
+  border: 1px solid #465561;
+  border-radius: 0%;
+  width: 180px;
+  margin: 15px 25px 15px 0;
+  object-fit: contain; }
 
 .card-subtitle {
   color: #465561; }
 
 .steam {
   background-color: #F5F7F9;
-  width: 100%;
-  padding: 0; }
+  width: 100%; }
+
+.card-content {
+  padding-top: 3%; }
+
+.text-cadet {
+  color: #465561; }
+
+.text-evening {
+  color: #1E71CD; }
+
+.aside {
+  margin-top: 23px;
+  width: 300px; }
+
+.btn-cadet {
+  background-color: #465561;
+  border-color: #465561;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

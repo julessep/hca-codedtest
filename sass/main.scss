@@ -8,7 +8,10 @@ $Steam: #F5F7F9;
 /* Blues */
 $Night: #063D7A;
 $Evening: #1E71CD;
-
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 body {
   padding-top: 75px; 
   color: $Cadet;
@@ -74,12 +77,19 @@ ol.breadcrumb {
   background-color: #fff;
   padding-left: 0;
 }
-
+.info-card{
+  padding: 20px;
+  margin: 15px 0;
+}
 .card-spacing {
   margin: 3%;
 }
 .card-img {
-  padding-top: 15px;
+  border: 1px solid $Cadet;
+  border-radius: 0%;
+  width: 180px;
+  margin: 15px 25px 15px 0;
+  object-fit: contain;
 }
 .card-subtitle {
   color: $Cadet;
@@ -88,6 +98,24 @@ ol.breadcrumb {
 .steam {
   background-color: $Steam;
   width: 100%;
-  padding: 0;
 }
 
+.card-content {
+  padding-top: 3%;
+}
+
+.text-cadet {
+  color: $Cadet;
+}
+.text-evening{
+  color: $Evening;
+}
+.aside {
+  margin-top: 23px;
+  width: 300px
+}
+.btn-cadet {
+  background-color: $Cadet;
+  border-color: $Cadet;
+  color: #fff;
+}
