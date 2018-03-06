@@ -1,5 +1,8 @@
 /* Greys */
 /* Blues */
+/*****
+  General 
+ *****/
 * {
   box-sizing: border-box;
   overflow-x: hidden; }
@@ -18,7 +21,24 @@ body {
   margin-left: 9%;
   margin-right: 9%; }
 
-/* Navbar */
+.steam {
+  background-color: #F5F7F9;
+  width: 100%; }
+
+.text-cadet {
+  color: #465561; }
+
+.text-evening {
+  color: #1E71CD; }
+
+.btn-cadet {
+  background-color: #465561;
+  border-color: #465561;
+  color: #fff; }
+
+/*****
+  Navbar 
+ *****/
 .navbar {
   width: 100%;
   height: 58px;
@@ -50,24 +70,28 @@ img.nav-icon {
   text-align: center;
   width: 40px; }
 
-/* Body */
+/*****
+  Body 
+ *****/
 .padding-top {
-  padding-top: 3%; }
-
-.home-icon {
-  height: 25px; }
-
-.short-line {
-  border-top: 2px solid #063D7A;
-  width: 18%; }
+  padding-top: 2%; }
 
 ol.breadcrumb {
   background-color: #fff;
   padding-left: 0; }
 
+.home-icon {
+  height: 23px; }
+
+.short-line {
+  border-top: 2px solid #063D7A;
+  width: 18%; }
+
+/* Cards */
 .info-card {
   padding: 20px;
-  margin: 15px 0; }
+  margin: 15px 0;
+  box-shadow: 0 2px 4px 0 rgba(31, 37, 50, 0.2); }
 
 .card-spacing {
   margin: 3%; }
@@ -82,26 +106,13 @@ ol.breadcrumb {
 .card-subtitle {
   color: #465561; }
 
-.steam {
-  background-color: #F5F7F9;
-  width: 100%; }
-
 .card-content {
   padding-top: 3%; }
 
-.text-cadet {
-  color: #465561; }
-
-.text-evening {
-  color: #1E71CD; }
-
 .aside {
   margin-top: 23px;
-  width: 300px; }
-
-.btn-cadet {
-  background-color: #465561;
-  border-color: #465561;
-  color: #fff; }
+  margin-bottom: 15px;
+  width: 300px;
+  box-shadow: 0 2px 4px 0 rgba(31, 37, 50, 0.2); }
 
 /*# sourceMappingURL=main.css.map */
