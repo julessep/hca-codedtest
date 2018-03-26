@@ -1,7 +1,7 @@
-# HCA Code Test
+# Code Test
 
 ## Objective
-A front end code test for the HCA Experience and Innovation team.
+Make a responsive webpage based on the mockup.
 
 ## Build Page Checklist
 Please include the following items in your code:
